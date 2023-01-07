@@ -56,8 +56,7 @@ local count = 0
 local item = "Rokakaka" 
 for k, v in pairs(game:GetService("Players").LocalPlayer.Backpack:GetChildren()) do 
    if (v.Name == item)  then
-       count = count + 1
-       
+       count = count + 1       
 local A_1 = "Lots"
 local Event = game:GetService("ReplicatedStorage").Events.SellKetchup
 Event:FireServer(A_1)
@@ -68,8 +67,7 @@ local count = 0
 local item = "Rokakaka" 
 for k, v in pairs(game:GetService("Players").LocalPlayer.Backpack:GetChildren()) do 
    if (v.Name == item)  then
-       count = count + 1
-       
+       count = count + 1       
 local A_1 = "Lots"
 local Event = game:GetService("ReplicatedStorage").Events.SellKetchup
 Event:FireServer(A_1)
@@ -83,11 +81,6 @@ for k, v in pairs(game:GetService("Players").LocalPlayer.Backpack:GetChildren())
        count = count + 1
    end
 end
-if count == 0 then
-    wait(1)
-Teleport()
-end
-local tool =  "Rokakaka"
 
 game.Players.LocalPlayer.Backpack:FindFirstChild(tool).Parent = game.Players.LocalPlayer.Character
 wait(0.1)
