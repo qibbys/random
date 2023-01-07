@@ -57,6 +57,30 @@ local item = "Rokakaka"
 for k, v in pairs(game:GetService("Players").LocalPlayer.Backpack:GetChildren()) do 
    if (v.Name == item)  then
        count = count + 1
+       
+local A_1 = "Lots"
+local Event = game:GetService("ReplicatedStorage").Events.SellKetchup
+Event:FireServer(A_1)
+while wait(0.3) do
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-779.748291, 67.0262299, -817.924072, -0.140109837, 1.20519816e-08, 0.990135968, 3.63581982e-08, 1, -7.02715619e-09, -0.990135968, 3.50149882e-08, -0.140109837)
+if game.Players.LocalPlayer.PlayerGui.PlayerGUI.ingame.Stats.Stats.Attribute.TextLabel.Text ~= "Attribute: Tough" then 
+local count = 0
+local item = "Rokakaka" 
+for k, v in pairs(game:GetService("Players").LocalPlayer.Backpack:GetChildren()) do 
+   if (v.Name == item)  then
+       count = count + 1
+       
+local A_1 = "Lots"
+local Event = game:GetService("ReplicatedStorage").Events.SellKetchup
+Event:FireServer(A_1)
+while wait(0.3) do
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-779.748291, 67.0262299, -817.924072, -0.140109837, 1.20519816e-08, 0.990135968, 3.63581982e-08, 1, -7.02715619e-09, -0.990135968, 3.50149882e-08, -0.140109837)
+if game.Players.LocalPlayer.PlayerGui.PlayerGUI.ingame.Stats.Stats.Attribute.TextLabel.Text ~= "Attribute: Tough" then 
+local count = 0
+local item = "Rokakaka" 
+for k, v in pairs(game:GetService("Players").LocalPlayer.Backpack:GetChildren()) do 
+   if (v.Name == item)  then
+       count = count + 1
    end
 end
 if count == 0 then
